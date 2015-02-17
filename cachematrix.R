@@ -1,6 +1,6 @@
-## This functions will cache the inverse of a matrix
+# This functions will cache the inverse of a matrix
 
-## This function will set the value of inverse matrix using a given funtion
+# This function will set the value of inverse matrix using a given funtion
 
 makeCacheMatrix <- function(y = matrix()){
 	inv <- NULL
@@ -15,7 +15,7 @@ makeCacheMatrix <- function(y = matrix()){
 }
 
 
-## This function will return the inverse of a matrix. The function skips the com## putation of the inverse matrix if it has been already computed.
+# This function will return the inverse of a matrix. The function skips the com## putation of the inverse matrix if it has been already computed.
 
 catchSolve <- function(y, ...){
 
