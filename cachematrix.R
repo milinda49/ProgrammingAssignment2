@@ -15,7 +15,8 @@ makeCacheMatrix <- function(y = matrix()){
 }
 
 
-# This function will return the inverse of a matrix. The function skips the com## putation of the inverse matrix if it has been already computed.
+# This function will return the inverse of a matrix. The function skips the 
+# computation of the inverse matrix if it has been already computed.
 
 catchSolve <- function(y, ...){
 
